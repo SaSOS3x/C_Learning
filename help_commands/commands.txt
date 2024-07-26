@@ -1,0 +1,6 @@
+Commands will be runned into src folder
+
+- gcc (file_name).c //Compilate C file with exe
+- gcc -std=c23 -pedantic(file_name).c //Compilate C file with exe, and check it for compilate witch c23 - standart hard
+- gcc -Wall (file_name).c //Compilate C file witch exe, and activate warning mode
+- gcc (file_name).c -o (file_name).exe & (file_name) //Compilate C file witch exe, and running this for exe (Windows only)
