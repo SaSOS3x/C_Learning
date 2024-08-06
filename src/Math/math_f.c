@@ -61,5 +61,26 @@ int main(void){
     int f = div(10,6);
     printf("div(10, 7) -> f = %d\n", f);
 
+    a = 8;
+    b = ++a;
+
+    printf("a = %f\nb = %f\n\n", a, b);
+
+    a = 8;
+    b = a++;
+
+    printf("a = %f\nb = %f\n\n", a, b);
+
+    a = 8;
+    b = --a;
+
+    printf("a = %f\nb = %f\n\n", a, b);
+
+    a = 8;
+    b = a--;
+
+    printf("a = %f\nb = %f\n\n", a, b);
+    
+
     return 0;
 }
